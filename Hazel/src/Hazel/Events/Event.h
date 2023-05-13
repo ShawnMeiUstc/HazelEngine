@@ -30,7 +30,10 @@ namespace Hazel {
 		EventCategoryMouse          = BIT(3),
 		EventCategoryMouseButton    = BIT(4)
 	};
-
+// BOOKMARKS
+// 为什么这里需要一个static的GetStaticType()，主要是use it without a instance。
+// 为什么需要virtual的GetEventType()，主要是有时候只有Event&、Event*，可以多态得到具体类型；
+// 具体应用就是下面的dispatcher
 #define EVENT_CLASS_TYPE(type) static EventType GetStaticType() { return EventType::type; }\
 								virtual EventType GetEventType() const override { return GetStaticType(); }\
 								virtual const char* GetName() const override { return #type; }

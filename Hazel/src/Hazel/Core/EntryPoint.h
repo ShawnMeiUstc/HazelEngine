@@ -3,7 +3,8 @@
 #include "Hazel/Core/Application.h"
 
 #ifdef HZ_PLATFORM_WINDOWS
-
+// BOOKMARKS 
+// dll只声明，实现放在client里
 extern Hazel::Application* Hazel::CreateApplication(ApplicationCommandLineArgs args);
 
 int main(int argc, char** argv)
