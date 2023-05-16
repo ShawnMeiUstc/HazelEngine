@@ -20,7 +20,8 @@ Hazelnut/assets/cache
 scripts/__pycache__
 
 #JackYY
-**.und/
-**.ini
-**.dll
-**.pdb
+**/*.und/
+*.ini
+*.dll
+*.pdb
+**/Box2D/

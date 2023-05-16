@@ -9,8 +9,8 @@ from io import BytesIO
 from urllib.request import urlopen
 
 class VulkanConfiguration:
-    requiredVulkanVersion = "1.3."
-    installVulkanVersion = "1.3.216.0"
+    requiredVulkanVersion = "1.3.246.1"
+    installVulkanVersion = "1.3.246.1"
     vulkanDirectory = "./Hazel/vendor/VulkanSDK"
 
     @classmethod
