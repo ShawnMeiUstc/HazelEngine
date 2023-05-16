@@ -1,5 +1,5 @@
 # Binaries
-**/bin/
+bin/
 bin-int/
 Intermediates/
 
@@ -8,11 +8,11 @@ Intermediates/
 
 # Visual Studio files and folder
 .vs/
-**.sln
-**.vcxproj
-**.vcxproj.filters
-**.vcxproj.user
-**.csproj
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.csproj
 
 # Directories
 Hazel/vendor/VulkanSDK
@@ -20,8 +20,7 @@ Hazelnut/assets/cache
 scripts/__pycache__
 
 #JackYY
-**/*.und/
+Hazel.und/
 *.ini
 *.dll
 *.pdb
-**/Box2D/
